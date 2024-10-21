@@ -1,71 +1,165 @@
 *{
     text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+.home{
+    background-color:rgb(8, 233, 38);
+    color: white;
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color:rgb(2, 2, 2);
-    margin: 0px;
-    width: 100%;
-    padding: 10px;
-    position: fixed;
-    box-shadow: 1px 1px 3px , -1px -1px 3px;
-    border: 1px solid white;
-}
-img{
-    width: 300px;
-    box-shadow: 2px 2px 3px,-2px -2px 3px;
-    margin: 0 auto;
-}
-.wrapper{
-    width: 600px;
-    margin-inline: auto;
-    border:1px solid white ;
-    box-shadow: 1px 1px 5px black,-1px -1px 5px black ;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-p{
-    text-align: justify;
-}
-h1{
-    text-align: center;
-    font-family: Tahoma;
-    font-size: 60px;
-    font-weight: 800;
-    background-color: black;
+    background-color: hsl(0, 91%, 50%);
+    padding: 2px;
     color: white;
+    margin-bottom: 15px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 30px;
 }
 .logo{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.jj{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.jj a{
     color: white;
-    font-size: 30px;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.discription{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+h2{
+    margin-bottom: 30px;
+}
+p{
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.genres{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+h3{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.img img{
+    width: 100%;
+    height: 180px;
+}
+.type{
+    height: 50px;
+    text-align: center;
+    background-color: rgb(4, 4, 22);
+    color: white;
+    padding: 10px;
+}
+.top{
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.kk{
+    width: 300px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.kk img{
+    width:150px;
+}
+
+.watch{
+    text-align: center;
+   background-color: rgb(4, 4,22);
+   color: white;
+   width: 150px;
+   
+}
+.nom{
+    margin-top: 40px;
+    background-color: white;
+    color: brown;
+    width: 20px;
+    margin-inline: auto;
+    font-size: large;
+    font-weight: 800;
+    border-radius: 50%;
+
+}
+button{
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: brown;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.fot{
+    margin-bottom: unset;
 }
 li{
     list-style: none;
-    margin-right: 15px;
-    display: inline-block;
+    margin-top: 10px;
 }
 li a{
     color: white;
-    font-size:20px ;
-    font-weight: 600;
+}
+footer{
+    background-color: rgb(38, 247, 10);
+}
+.news{
+    margin-top: 20px;
+    padding: 20px;
+}
+input{
+    width: 400px;
+    padding: 5px;
+}
+.submit{
+    width: unset;
+    padding: 5px;
+    font-size:14px;
+    font-weight: bold;
+}
+i{
+    margin-left: 8px;
+}
 
-}
-a:hover{
-    color: aquamarine;
-}
-.base{
-    background-color: black;
-    color: white;
-    height: 100px;
-    border: 2px white solid;
-    box-shadow: 1px 1px 5px black,-1px -1px 5px black ;
-
-}
-body{
-    margin: 0;
-}
